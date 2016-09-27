@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kdfhnsdfhnsdfhnfuijhnfvuiohsduiojhndfiodsoisdfiodfjio'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = False
 
 ALLOWED_HOSTS = ['domain.com']
 
@@ -78,13 +78,22 @@ WSGI_APPLICATION = 'wechat.wsgi.application'
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbname',
-        'USER': 'username',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': 'yourport',
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+   #     'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'game',
+        'USER': 'root',
+        'PASSWORD': 'test',
+        # 'HOST': '120.55.98.173',
+        'HOST': '127.0.0.1',
+        'PORT': '3306'
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'djangodb',
+        # 'USER': 'root',
+        # 'PASSWORD': '123456',
+        # 'HOST': '',
+        # 'PORT': ''
     }
 }
 

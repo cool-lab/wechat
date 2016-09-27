@@ -56,13 +56,13 @@ def index(request):
         return HttpResponse(wxser.valid(request))
     else:
         xmlstr = smart_str(request.body)
-		logger.info('got the request body %s' % xmlstr)
+        logger.info('got the request body %s' % xmlstr)
         xml = etree.fromstring(xmlstr)
         ToUserName = xml.find('ToUserName').text
         FromUserName = xml.find('FromUserName').text
         CreateTime = xml.find('CreateTime').text
-        MsgType = xml.find('MsgType').text 
-        
+        MsgType = xml.find('MsgType').text
+
         if MsgType == "text":
             Content = xml.find('Content').text
             logger.info('got the content %s' % Content)
@@ -136,7 +136,7 @@ def index(request):
 
                 return HttpResponse(reply_xml)
             else:
-                return HttpResponse("connove") 
+                return HttpResponse("connove")
 
 
 # jssdk
