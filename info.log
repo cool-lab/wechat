@@ -93,3 +93,1134 @@ Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add u'127.0.0.1' to 
 Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
 Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
 Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Internal Server Error: /wechat
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 86, in get_exception_response
+    callback, param_dict = resolver.resolve_error_handler(status_code)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 415, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/wechat/wechat/urls.py", line 18, in <module>
+    from wxorder import views
+  File "/home/wechat/wxorder/views.py", line 14, in <module>
+    from lxml import etree
+ImportError: No module named lxml
+Invalid HTTP_HOST header: 'www.sinodn.cn'. You may need to add u'www.sinodn.cn' to ALLOWED_HOSTS.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 86, in get_exception_response
+    callback, param_dict = resolver.resolve_error_handler(status_code)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 415, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/wechat/wechat/urls.py", line 18, in <module>
+    from wxorder import views
+  File "/home/wechat/wxorder/views.py", line 14, in <module>
+    from lxml import etree
+ImportError: No module named lxml
+Invalid HTTP_HOST header: 'www.sinodn.cn'. You may need to add u'www.sinodn.cn' to ALLOWED_HOSTS.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 86, in get_exception_response
+    callback, param_dict = resolver.resolve_error_handler(status_code)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 415, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/wechat/wechat/urls.py", line 18, in <module>
+    from wxorder import views
+  File "/home/wechat/wxorder/views.py", line 14, in <module>
+    from lxml import etree
+ImportError: No module named lxml
+Invalid HTTP_HOST header: u'mx-tw.mail.gm0.yahoodns.net:25'. You may need to add u'mx-tw.mail.gm0.yahoodns.net' to ALLOWED_HOSTS.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 86, in get_exception_response
+    callback, param_dict = resolver.resolve_error_handler(status_code)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 415, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/wechat/wechat/urls.py", line 18, in <module>
+    from wxorder import views
+  File "/home/wechat/wxorder/views.py", line 14, in <module>
+    from lxml import etree
+ImportError: No module named lxml
+Invalid HTTP_HOST header: 'www.sinodn.cn'. You may need to add u'www.sinodn.cn' to ALLOWED_HOSTS.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 86, in get_exception_response
+    callback, param_dict = resolver.resolve_error_handler(status_code)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 415, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/wechat/wechat/urls.py", line 18, in <module>
+    from wxorder import views
+  File "/home/wechat/wxorder/views.py", line 14, in <module>
+    from lxml import etree
+ImportError: No module named lxml
+Invalid HTTP_HOST header: 'www.sinodn.cn'. You may need to add u'www.sinodn.cn' to ALLOWED_HOSTS.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 86, in get_exception_response
+    callback, param_dict = resolver.resolve_error_handler(status_code)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 415, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/wechat/wechat/urls.py", line 18, in <module>
+    from wxorder import views
+  File "/home/wechat/wxorder/views.py", line 14, in <module>
+    from lxml import etree
+ImportError: No module named lxml
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.32m.cn'. You may need to add u'www.32m.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'uupz.cn'. You may need to add u'uupz.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'uupz.cn'. You may need to add u'uupz.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'fr.cyberpods.net'. You may need to add u'fr.cyberpods.net' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.baidu.com:443'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.sinodn.cn'. You may need to add u'www.sinodn.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.uupz.cn'. You may need to add u'www.uupz.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.sinodn.cn'. You may need to add u'www.sinodn.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'teachatting.com.cn'. You may need to add u'teachatting.com.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.sinodn.cn'. You may need to add u'www.sinodn.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.32m.cn'. You may need to add u'www.32m.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.32m.cn'. You may need to add u'www.32m.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.32m.cn'. You may need to add u'www.32m.cn' to ALLOWED_HOSTS.
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'www.ppcat.com'. You may need to add u'www.ppcat.com' to ALLOWED_HOSTS.
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /wechat
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /member/0/
+Not Found: /productlist/22/
+Not Found: /1842168900.html
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /joinus/0/
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /r/errors.log
+Not Found: /azenv.php
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /joinus/1/
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /productdetail/90/
+Not Found: /productdetail/74/
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /joinus/1/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /productdetail/101/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /about/2/
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /robots.txt
+Not Found: /productdetail/66/
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /robots.txt
+Not Found: /productdetail/101/
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /robots.txt
+Not Found: /culturedetail/15/
+Not Found: /index/
+Not Found: /wechat
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /'"/></script><script>alert()</script>
+Not Found: /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E
+Not Found: /'"/></script><script>alert()</script>/
+Not Found: /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E/
+Not Found: /'"+onmouseover=alert()+d='"
+Not Found: /'" onmouseover=alert() d='"
+Not Found: /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+Not Found: /'"+onmouseover=alert()+d='"/
+Not Found: /'" onmouseover=alert() d='"/
+Not Found: /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22/
+Not Found: /'"/></script><script>alert()</script>
+Not Found: /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E
+Not Found: /'"/></script><script>alert()</script>/
+Not Found: /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E/
+Not Found: /'"+onmouseover=alert()+d='"
+Not Found: /'" onmouseover=alert() d='"
+Not Found: /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+Not Found: /'"+onmouseover=alert()+d='"/
+Not Found: /'" onmouseover=alert() d='"/
+Not Found: /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22/
+Not Found: /'"/></script><script>alert()</script>
+Not Found: /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E
+Not Found: /'"/></script><script>alert()</script>/
+Not Found: /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E/
+Not Found: /'"+onmouseover=alert()+d='"
+Not Found: /'" onmouseover=alert() d='"
+Not Found: /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+Not Found: /'"+onmouseover=alert()+d='"/
+Not Found: /'" onmouseover=alert() d='"/
+Not Found: /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22/
+Not Found: /'"/></script><script>alert()</script>
+Not Found: /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E
+Not Found: /'"/></script><script>alert()</script>/
+Not Found: /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E/
+Not Found: /'"+onmouseover=alert()+d='"
+Not Found: /'" onmouseover=alert() d='"
+Not Found: /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+Not Found: /'"+onmouseover=alert()+d='"/
+Not Found: /'" onmouseover=alert() d='"/
+Not Found: /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22/
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /xzx.html
+Not Found: /tate.html
+Not Found: /robots.txt
+Not Found: /joinus/1/
+Not Found: /wis.htm
+Not Found: /web/gobierno.php
+Not Found: /p.htm
+Not Found: /isko-1.html
+Not Found: /soopar.txt
+Not Found: /zorro.htm
+Not Found: /hex.htm
+Not Found: /indonesia.txt
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /fuckchinaaa.htm
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /hackzuo.asp
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /default.asp
+Not Found: /add.asp
+Not Found: /aspx.aspx
+Not Found: /zo.txt
+Not Found: /yin.asp
+Not Found: /uyghur.htm
+Not Found: /wuqing.asp
+Not Found: /zhdian.asp
+Not Found: /mainpage.html
+Not Found: /mao.asp
+Not Found: /blog/
+Not Found: /1.htm
+Not Found: /index.asp
+Not Found: /job.asp
+Not Found: /index.htm
+Not Found: /1.txt
+Not Found: /jza.htm
+Not Found: /culturedetail/13/
+Not Found: /kim.asp
+Not Found: /lf.asp
+Not Found: /azenv.php
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /newfile.asp
+Not Found: /nohack.asp
+Not Found: /lhsq.asp
+Not Found: /upfile_other.asp
+Not Found: /weijiao.asp
+Not Found: /test.asp
+Not Found: /xiaozi.html
+Not Found: /test.txt
+Not Found: /molu.asp
+Not Found: /xiaoliyu.htm
+Not Found: /2008723182517855.asp
+Not Found: /huangdi.asp
+Not Found: /hacker.asp
+Not Found: /ws.asp
+Not Found: /wsry.asp
+Not Found: /help.asp
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /index.php
+Not Found: /Img.php
+Not Found: /phpjackal.php
+Not Found: /web/test.htm
+Not Found: /x.txt
+Not Found: /ftp.php
+Not Found: /xmlrpc/sys.php
+Not Found: /xmlrpc/config.php
+Not Found: /data/cache/php.php
+Not Found: /php.php
+Not Found: /uploads/default.inc.php
+Not Found: /include/dig.php
+Not Found: /ftp.asp
+Not Found: /myup.asp
+Not Found: /myup2.asp
+Not Found: /plus/guestbook/default.inc.php
+Not Found: /data/cache/show.php
+Not Found: /uploadsafa.inc.php
+Not Found: /xxoo.asp
+Not Found: /BlackOdometer/Editor.asp
+Not Found: /juhua.php
+Not Found: /postocer.php
+Not Found: /fuck-china.html
+Not Found: /l0rd.htm
+Not Found: /albums/userpics/robots.txt
+Not Found: /bubai.asp
+Not Found: /sec.html
+Not Found: /db.txt
+Not Found: /include/updateXmlSvr.class.php
+Not Found: /xxx.asp
+Not Found: /plus/api.inc.php
+Not Found: /gl.html
+Not Found: /file.php
+Not Found: /links/888.asp
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /myup1.asp
+Not Found: /backup/config.php
+Not Found: /xt.txt
+Not Found: /110.htm
+Not Found: /STQ.html
+Not Found: /xj.htm
+Not Found: /ff0000.html
+Not Found: /caihua.html
+Not Found: /aL_Pars.htm
+Not Found: /Nilux.htm
+Not Found: /solo.html
+Not Found: /0ye.html
+Not Found: /M4sk.txt
+Not Found: /weiai.asp
+Not Found: /xiaozu.html
+Not Found: /kd.html
+Not Found: /may.txt
+Not Found: /jyhack.com.html
+Not Found: /L4ck.html
+Not Found: /caonimabi.asp
+Not Found: /huzong.html
+Not Found: /hxg.htm
+Not Found: /MCA.txt
+Not Found: /ColdDog.html
+Not Found: /DHT.TXT
+Not Found: /2014.html
+Not Found: /system.cer
+Not Found: /jqm.html
+Not Found: /hmy.htm
+Not Found: /iav.txt
+Not Found: /robots.txt
+Not Found: /oday.txt
+Not Found: /wechat
+Not Found: /wechat
+Not Found: /Tree.htm
+Not Found: /ina.htm
+Not Found: /wuyou.txt
+Not Found: /hmseo.html
+got the request body 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/wechat/wxorder/views.py", line 61, in index
+    xml = etree.fromstring(xmlstr)
+  File "lxml.etree.pyx", line 3032, in lxml.etree.fromstring (src/lxml/lxml.etree.c:68106)
+  File "parser.pxi", line 1785, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:102455)
+  File "parser.pxi", line 1673, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:101284)
+  File "parser.pxi", line 1074, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:96466)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 633, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91924)
+XMLSyntaxError: None
+Not Found: /plus/vps.php
+Not Found: /j/peler.htm
+Not Found: /include/dama.php
+Not Found: /Newfo./1.asp
+Not Found: /include/tags.class.php
+Not Found: /T2sec.html
+Not Found: /plus/postocer.php
+Not Found: /jyhack.com.txt
+Not Found: /feng.txt
+Not Found: /lpt2.dream.asp
+Not Found: /Draksec.htm
+Not Found: /uploads/memberlogin.inc.php
+Not Found: /wp-update.php
+Not Found: /who.asp
+Not Found: /wechat
+Internal Server Error: /wechat
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to www.ppcat.com/wechat/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Not Found: /NewFo./1.asp
+Not Found: /coon.asp
+Not Found: /uploads/page.funcs.php
+Not Found: /myups.asp
+Internal Server Error: /wechat
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to www.ppcat.com/wechat/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475028536</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[a]]></Content>
+<MsgId>6335199323506563286</MsgId>
+</xml>
+got the content a
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475028542</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[bcd]]></Content>
+<MsgId>6335199349276367064</MsgId>
+</xml>
+got the content bcd
+Not Found: /admin/md5.asa
+Not Found: /cx/up1oad.asp
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475028592</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ abc]]></Content>
+<MsgId>6335199564024731880</MsgId>
+</xml>
+got the content  abc
+Not Found: /admin/md5.asp
+Not Found: /find.asp
+Not Found: /
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475028778</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[A]]></Content>
+<MsgId>6335200362888648997</MsgId>
+</xml>
+got the content A
+Not Found: /wack.htm
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475028782</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::)]]></Content>
+<MsgId>6335200380068518183</MsgId>
+</xml>
+got the content /::)
+Not Found: /UploadFiles/201111.asp
+Not Found: /jyhack.html
+Not Found: /hack.asp
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475028897</CreateTime>
+<MsgType><![CDATA[location]]></MsgType>
+<Location_X>31.205777</Location_X>
+<Location_Y>121.600809</Location_Y>
+<Scale>15</Scale>
+<Label><![CDATA[上海市浦东新区张江长泰广场内(金科路东)]]></Label>
+<MsgId>6335200873989757249</MsgId>
+</xml>
+Internal Server Error: /wechat
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 151, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view wxorder.views.index didn't return an HttpResponse object. It returned None instead.
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475028940</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/Ub42gNLn1bGhTAuy7MOTiaCaQb0woyvAndDlON7Pk4vtVEM9nQT20ibQx1VMOYPHBwrBKw2CJ8yFibrFyvjibSgVBg/0]]></PicUrl>
+<MsgId>6335201058673350990</MsgId>
+<MediaId><![CDATA[3qsoAx5ZGByUkD1h11P2ZKHj0IUv2dgqTrNSOfMGUZ5XXYvEpxGuVrMXckrwQ8kE]]></MediaId>
+</xml>
+Internal Server Error: /wechat
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 151, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view wxorder.views.index didn't return an HttpResponse object. It returned None instead.
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475028952</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[A]]></Content>
+<MsgId>6335201110212958545</MsgId>
+</xml>
+got the content A
+Not Found: /K7y2le.html
+Not Found: /inside.html
+Not Found: /
+Not Found: /
+Not Found: /96cN.txt
+Not Found: /login
+Not Found: /favicon.ico
+Internal Server Error: /wxorder/login
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 193, in manager_login
+    return render(request, 'wxorder/login.html')
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 575, in reverse
+    key)
+NoReverseMatch: u'wxorder' is not a registered namespace
+Not Found: /wxorder:login
+Not Found: /opChinaReload.html
+Not Found: /aben.htm
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Not Found: /anonph.htm
+Not Found: /jyhack.com.htm
+Not Found: /
+Not Found: /hy/hy.php
+Not Found: /images/zencart1.php
+Not Found: /invoker/JMXInvokerServlet
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Not Found: /wp-content/
+Not Found: /est.html
+Not Found: /include/downmin.inc.php
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475029410</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[bcd]]></Content>
+<MsgId>6335203077307980222</MsgId>
+</xml>
+got the content bcd
+Not Found: /robots.txt
+Not Found: /
+Not Found: /zxdker.php
+got the request body <xml><ToUserName><![CDATA[gh_d68ea10d7b9f]]></ToUserName>
+<FromUserName><![CDATA[oTCGaxIyPKw26nuPxqbgp1CQ0AII]]></FromUserName>
+<CreateTime>1475029448</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://www.ppcat.com/wxorder/hello]]></Content>
+<MsgId>6335203240516737478</MsgId>
+</xml>
+got the content http://www.ppcat.com/wxorder/hello
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Not Found: /admins/diy.asp
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Not Found: /versions.php
+Not Found: /invoker/JMXInvokerServlet
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Not Found: /data/he1p.asp
+Not Found: /anzu.asp
+Not Found: /invoker/JMXInvokerServlet
+Internal Server Error: /wxorder/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wechat/wxorder/views.py", line 145, in hello
+    jssdk = Jssdk(appId, appSecret)
+  File "/home/wechat/wxorder/jssdk.py", line 17, in __init__
+    'jsapi_ticket': self.getJsApiTicket(),
+  File "/home/wechat/wxorder/jssdk.py", line 53, in getJsApiTicket
+    json_file = open('jsapi_ticket.json')
+IOError: [Errno 2] No such file or directory: 'jsapi_ticket.json'
+Not Found: /
+Not Found: /read_write/write.asp
+Not Found: /yll.html
+Not Found: /sky.php
+Not Found: /invoker/JMXInvokerServlet

@@ -28,9 +28,10 @@ from urllib import urlencode
 # connove
 # AppID:appid
 # AppSecret:AppSecret
-appId = 'your_app_id'
-appSecret = 'your_app_secret'
-weixin_id = 'connove'
+
+appId = 'wx8db7121d39949f5d'
+appSecret = 'da42ff2c14d7aebd3302c85a086edfdb'
+weixin_id = '1qaz2wsx3edc4rFv'
 logger = logging.getLogger(__name__)
 
 @csrf_exempt

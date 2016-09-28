@@ -7,7 +7,7 @@ import hashlib
 class WechatCallback:
 
     def __init__(self):
-        self.token = 'yourtokenlongtokenittoken'
+        self.token = '1qaz2wsx3edc4rFv'
 
     def valid(self, request):
         if self.check_signature(request.GET):

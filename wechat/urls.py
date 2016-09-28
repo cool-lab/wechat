@@ -17,7 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from wxorder import views
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url(r'^wechat', views.index, name='index'),
     url(r'^wxorder/', include('wxorder.urls')),
     url(r'^youdefineit/', admin.site.urls),
 ]
