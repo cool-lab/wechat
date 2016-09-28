@@ -9,6 +9,7 @@ import hashlib
 import os
 from wechat.settings import BASE_DIR
 ACCESS_FILE_PATH=os.path.join(BASE_DIR,'access_token.json')
+JSAPI_FILE_PATH=os.path.join(BASE_DIR,'jsapi_ticket.json')
 
 class Jssdk:
     def __init__(self, appId, appSecret):
@@ -53,7 +54,7 @@ class Jssdk:
         return access_token
 
     def getJsApiTicket(self):
-        json_file = open(ACCESS_FILE_PATH)
+        json_file = open(JSAPI_FILE_PATH)
         data = json.load(json_file)
         json_file.close()
         jsapi_ticket = data['jsapi_ticket']
@@ -64,7 +65,7 @@ class Jssdk:
             jsapi_ticket = json.loads(response.text)['ticket']
             data['jsapi_ticket'] = jsapi_ticket
             data['expire_time'] = int(time.time()) + 7000
-            json_file = open(ACCESS_FILE_PATH, 'w')
+            json_file = open(JSAPI_FILE_PATH, 'w')
             json_file.write(json.dumps(data))
             json_file.close()
         return jsapi_ticket
