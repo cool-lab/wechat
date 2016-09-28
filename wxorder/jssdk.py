@@ -6,6 +6,9 @@ import requests
 import random
 import string
 import hashlib
+import os
+from wechat.settings import BASE_DIR
+ACCESS_FILE_PATH=os.path.join(BASE_DIR,'access_token.json')
 
 class Jssdk:
     def __init__(self, appId, appSecret):
@@ -32,11 +35,11 @@ class Jssdk:
         return self.ret
 
     def getAccessToken(self):
-        json_file = open('access_token.json')
+        json_file = open(ACCESS_FILE_PATH)
         data = json.load(json_file)
         json_file.close()
         access_token = data['access_token']
-        
+
         if data['expire_time'] < time.time():
             url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s" %\
                   (self.appId, self.appSecret)
@@ -44,7 +47,7 @@ class Jssdk:
             access_token = json.loads(response.text)['access_token']
             data['access_token'] = access_token
             data['expire_time'] = int(time.time()) + 7000
-            json_file = open('access_token.json', 'w')
+            json_file = open(ACCESS_FILE_PATH, 'w')
             json_file.write(json.dumps(data))
             json_file.close()
         return access_token
