@@ -53,7 +53,7 @@ class Jssdk:
         return access_token
 
     def getJsApiTicket(self):
-        json_file = open('jsapi_ticket.json')
+        json_file = open(ACCESS_FILE_PATH)
         data = json.load(json_file)
         json_file.close()
         jsapi_ticket = data['jsapi_ticket']
@@ -64,7 +64,7 @@ class Jssdk:
             jsapi_ticket = json.loads(response.text)['ticket']
             data['jsapi_ticket'] = jsapi_ticket
             data['expire_time'] = int(time.time()) + 7000
-            json_file = open('jsapi_ticket.json', 'w')
+            json_file = open(ACCESS_FILE_PATH, 'w')
             json_file.write(json.dumps(data))
             json_file.close()
         return jsapi_ticket
